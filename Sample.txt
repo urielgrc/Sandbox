@@ -1,2 +1,6 @@
 HELLO
 Coffee
+
+The use of mathematical models in epidemiology dates back
+to 1760, when Daniel Bernoulli tried to influence public policy by modeling the potential
+population-level benefits of universal smallpox inoculation.
