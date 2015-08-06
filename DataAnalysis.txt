@@ -7,3 +7,5 @@ points(sort(station4345,decreasing = FALSE), col="pink", pch="*",cex=1)
 dev.new()
 
 another line
+
+.dev()
