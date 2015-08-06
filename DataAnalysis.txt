@@ -1,0 +1,7 @@
+pdf("C:/Users/urielgrc/Desktop/adjustedDelta.pdf")
+plot(vect4345,xlab = "Parcels", ylab="Minutes", xaxt="n", main="Travel Time",col="gray",pch="*",cex=1,fig= c(0,1,0,1))
+legend(x=3400,y=2.5,c("vect4546", "vect4345","station4546","station4345"), pch=19, col=c("purple","gray","green","pink"))
+points(sort(vect4546,decreasing = FALSE), col="purple", pch="*",cex=1)
+points(sort(station4546,decreasing = FALSE), col="green", pch="*",cex=1)
+points(sort(station4345,decreasing = FALSE), col="pink", pch="*",cex=1)
+dev.off()
